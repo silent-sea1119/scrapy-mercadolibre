@@ -1,25 +1,24 @@
-# Tutorial Scrapy; Extraer información de Mercado Libre
+# Extract information from Mercado Libre
 
-Si quieres ver como se realizo este proyecto puedes verlo en video: https://goo.gl/73crqm
+If you want to see how this project was carried out, you can see it on video: https://goo.gl/73crqm
 
-Si tienes alguna duda, puedes crear una pregunta en: [Issues](https://github.com/luisramirez-m/mercadolibre-scrapy/issues "Issues")
+If you have any questions, you can create a question at: [Issues](https://github.com/luisramirez-m/mercadolibre-scrapy/issues "Issues")
 
-## Modificaciones:
-
-
-### [0.0.3] - 2017-09-13
-- Cambios para el nuevo diseño de Mercado Libre
-- Se removieron muchos campos/variables que Mercado Libre ya no usa
+## Modifications:
 
 
-### [0.0.2] - 2017-03-12
-- Bajar imágenes del producto
-  - Recuerda cambiar en el archivo settings.py tu ruta donde quieres que se descargen las imágenes:
+### [0.0.3]
+- Changes for the new Mercado Libre design
+- Removed many fields/variables that Mercado Libre no longer uses
+
+
+### [0.0.2]
+- Download product images
+  - Remember to change in the settings.py file your path where you want the images to be downloaded:
 
     ```
     IMAGES_STORE = '/URL/DE/TU/DIRECTORIO/imagenes'
     ```
 
-### [0.0.1] - 2017-03-11
-- Primera version
-- Tutorial en video
+### [0.0.1]
+
